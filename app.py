@@ -60,18 +60,6 @@ st.sidebar.caption(
     "Built by [Team Dashabhuja](https://dashabhuja-team.netlify.app/).  [Download](https://dashabhuja.vercel.app/)"
 )
 
-st.sidebar.caption(
-    f"""
-    <div style='display: flex; align-items: center;'>
-        <a href='https://www.facebook.com/sourin.mukherjee833'><img src='{facebook}' style='width: 50px; height: 50px; margin-right: 25px;'></a>
-        <a href='https://www.instagram.com/i_am_faith_007/'><img src='{instagram}' style='width: 48px; height: 48px; margin-right: 25px;'></a>
-        <a href='https://www.linkedin.com/in/sourin-mukherjee2105833/'><img src='{linkedin}' style='width: 48px; height: 48px; margin-right: 25px;'></a>
-        <a href="https://x.com/i_am_faith_007"><img src='{twitter}' style='width: 48px; height: 48px; margin-right: 25px;'></a>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-
 # Display pose information and image
 pose_info = {
     'Vrikshasana': ('Pose Name - Vrikshasana', 'tree.jpg', 1),
