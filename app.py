@@ -61,7 +61,7 @@ st.sidebar.caption(
 )
 
 st.sidebar.caption(
-    "[Download](https://dashabhuja.vercel.app/)"
+    "[Download](https://dashabhuja.vercel.app/) Now"
 )
 # Display pose information and image
 pose_info = {
