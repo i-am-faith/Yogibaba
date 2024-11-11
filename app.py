@@ -42,7 +42,7 @@ st.set_page_config(
 )
 
 # Sidebar
-st.sidebar.image("durga.jpg", use_column_width=True)
+st.sidebar.image("dashabhuja.jpeg", use_column_width=True)
 st.sidebar.markdown(
     """
     <div style="text-align: center;">
@@ -57,12 +57,8 @@ app_mode = st.sidebar.selectbox('Select The Pose', ['Vrikshasana', 'Parvatasana'
 # Add social media icons with hyperlinks in the same line
 st.sidebar.markdown("---")
 st.sidebar.caption(
-    "Built by [Team Dashabhuja](https://subhagittu.github.io/Animated-About-Us-Page). Like this? [Hire me!](mailto:sourin.mukherjee2580@gmail.com)"
+    "Built by [Team Dashabhuja](https://dashabhuja-team.netlify.app/).  [Download](https://dashabhuja.vercel.app/)"
 )
-facebook = "https://user-images.githubusercontent.com/74038190/235294010-ec412ef5-e3da-4efa-b1d4-0ab4d4638755.gif"
-instagram = "https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif"
-linkedin = "https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif"
-twitter = "https://user-images.githubusercontent.com/74038190/235294011-b8074c31-9097-4a65-a594-4151b58743a8.gif"
 
 st.sidebar.caption(
     f"""
