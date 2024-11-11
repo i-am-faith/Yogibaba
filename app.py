@@ -42,7 +42,7 @@ st.set_page_config(
 )
 
 # Sidebar
-st.sidebar.image("Logo/dashabhuja.jpeg", use_column_width=True)
+st.sidebar.image("dashabhuja.jpeg", use_column_width=True)
 st.sidebar.markdown(
     """
     <div style="text-align: center;">
