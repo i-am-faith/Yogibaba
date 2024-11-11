@@ -42,7 +42,7 @@ st.set_page_config(
 )
 
 # Sidebar
-st.sidebar.image("dashabhuja.jpeg", use_column_width=True)
+st.sidebar.image("Logo/dashabhuja.jpeg", use_column_width=True)
 st.sidebar.markdown(
     """
     <div style="text-align: center;">
@@ -57,7 +57,17 @@ app_mode = st.sidebar.selectbox('Select The Pose', ['Vrikshasana', 'Parvatasana'
 # Add social media icons with hyperlinks in the same line
 st.sidebar.markdown("---")
 st.sidebar.caption(
-    "Built by [Team Dashabhuja](https://dashabhuja-team.netlify.app/).  [Download](https://dashabhuja.vercel.app/)"
+    "Built by [Team Dashabhuja](https://dashabhuja-team.netlify.app/)."
+)
+
+st.sidebar.caption(
+    f"""
+    <div style='display: flex; align-items: center;'>
+        <a href='https://dashabhuja.vercel.app/'><img src="Logo/apk.png" style='width: 50px; height: 50px; margin-right: 25px;'></a>
+        <a href='https://play.google.com/store/apps/details?id=com.dashabhuja.app'><img src="Logo/gplay.png" style='width: 50px; height: 50px; margin-right: 25px;'></a>
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
 
 # Display pose information and image
