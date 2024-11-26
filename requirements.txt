@@ -2,7 +2,6 @@ pip==23.2.1
 pandas==2.1.4
 numpy==1.24.3
 streamlit==1.30.0
-opencv-python==4.5.5.64
 opencv-python-headless
 pillow
 google-auth==2.35.0
